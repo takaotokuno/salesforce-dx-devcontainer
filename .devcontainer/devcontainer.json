@@ -12,5 +12,14 @@
 				"esbenp.prettier-vscode"
 			]
 		}
+	},
+	"forwardPorts": [
+		1717
+	],
+	"portsAttributes": {
+		"1717": {
+			"label": "Salesforce OAuth Callback",
+			"onAutoForward": "silent"
+		}
 	}
 }
