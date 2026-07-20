@@ -40,7 +40,7 @@ A Dev Hub is required to create and manage scratch orgs. In the Salesforce org:
 3. Click **Enable Dev Hub**. 
 
 For a guided walkthrough, complete Trailhead's
-[Quilck Start: Salesforce DX](https://trailhead.salesforce.com/ja/content/learn/projects/quick-start-salesforce-dx).
+[Quick Start: Salesforce DX](https://trailhead.salesforce.com/ja/content/learn/projects/quick-start-salesforce-dx).
 See also the official
 [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_setup_enable_devhub.htm).
 
@@ -125,6 +125,6 @@ Dev Hub を有効化した組織にブラウザーでログインします。
 ```bash
 sf project generate --name my-salesforce-app
 cd my-salesforce-app
-sf org create scratch --alias MyScratchOrg --set-default --duration-days 7
+sf org create scratch --alias MyScratchOrg --set-default --duration-days 7 --definition-file config/project-scratch-def.json
 sf org open
 ```
